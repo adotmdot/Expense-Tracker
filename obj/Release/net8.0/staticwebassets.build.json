@@ -1,3 +1,4 @@
+<<<<<<< HEAD:obj/Release/net8.0/staticwebassets.build.json
 {
   "Version": 1,
   "Hash": "QBgJZnEyqjNKQQdvyjwL80Zeh2ESP9n5DARJlqwWbgc=",
@@ -1195,4 +1196,16 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
+=======
+{
+  "Version": 1,
+  "Hash": "C0YTc2rfFEuQX+9YpR1WLS/+kJZotptBwXO/O4HmRbE=",
+  "Source": "ExpenseTracker.API",
+  "BasePath": "_content/ExpenseTracker.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+>>>>>>> 93a8071b899bcfe8d3e06fb7f489eb0a915c51d2:obj/Debug/net8.0/staticwebassets.build.json
 }
