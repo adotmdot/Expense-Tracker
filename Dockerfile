@@ -6,9 +6,8 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY ["ExpenseTracker.Web/ExpenseTracker.Web.csproj", "ExpenseTracker.Web/"]
-RUN dotnet restore "ExpenseTracker.Web/ExpenseTracker.Web.csproj"
-COPY . .
-WORKDIR "/src/ExpenseTracker.Web"
+WORKDIR /ExpenseTracker.Web
+RUN dotnet restore "ExpenseTracker.Web.csproj"
 RUN dotnet build "ExpenseTracker.Web.csproj" -c Release -o /app/build
 RUN dotnet publish "ExpenseTracker.Web.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
