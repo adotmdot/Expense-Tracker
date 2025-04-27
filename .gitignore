@@ -1,0 +1,47 @@
+## Ignore Visual Studio temporary files, build results, and user-specific files.
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# Uncomment if you have tasks.json or launch.json saved
+# .vscode/
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Microsoft Azure Web Apps publish settings
+PublishProfiles/
+
+# Local database files
+*.db
+*.mdf
+*.ldf
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# dotenv environment variables
+.env
+.env.*
+
+# Render specific
+render.yaml
