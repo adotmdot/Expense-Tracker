@@ -8,7 +8,7 @@ WORKDIR /src
 COPY ExpenseTracker.Web.csproj ExpenseTracker.Web.csproj
 RUN dotnet restore ExpenseTracker.Web.csproj
 COPY . .
-WORKDIR /src/ExpenseTracker.Web
+WORKDIR /src
 RUN dotnet build ExpenseTracker.Web.csproj -c Release -o /app/build
 RUN dotnet publish ExpenseTracker.Web.csproj -c Release -o /app/publish /p:UseAppHost=false
 
