@@ -3,12 +3,16 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
 WORKDIR /src
 
-# Copy the csproj and restore as distinct layers
-COPY ExpenseTracker.Web/*.csproj ExpenseTracker.Web/
+# Copy only the .csproj first
+COPY ExpenseTracker.Web/ExpenseTracker.Web.csproj ./ExpenseTracker.Web/
+
+# Restore dependencies
 RUN dotnet restore ExpenseTracker.Web/ExpenseTracker.Web.csproj
 
-# Copy everything else and build
+# Copy everything else
 COPY . .
+
+# Build and publish
 WORKDIR /src/ExpenseTracker.Web
 RUN dotnet build ExpenseTracker.Web.csproj -c Release -o /app/build
 RUN dotnet publish ExpenseTracker.Web.csproj -c Release -o /app/publish /p:UseAppHost=false
