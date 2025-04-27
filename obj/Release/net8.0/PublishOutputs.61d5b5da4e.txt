@@ -1,0 +1,7 @@
+C:\Users\adotm\Downloads\ExpenseTracker.Web\bin\Release\net8.0\publish\ExpenseTracker.Web.exe
+C:\Users\adotm\Downloads\ExpenseTracker.Web\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\adotm\Downloads\ExpenseTracker.Web\bin\Release\net8.0\publish\appsettings.json
+C:\Users\adotm\Downloads\ExpenseTracker.Web\bin\Release\net8.0\publish\ExpenseTracker.Web.dll
+C:\Users\adotm\Downloads\ExpenseTracker.Web\bin\Release\net8.0\publish\ExpenseTracker.Web.deps.json
+C:\Users\adotm\Downloads\ExpenseTracker.Web\bin\Release\net8.0\publish\ExpenseTracker.Web.runtimeconfig.json
+C:\Users\adotm\Downloads\ExpenseTracker.Web\bin\Release\net8.0\publish\ExpenseTracker.Web.pdb
